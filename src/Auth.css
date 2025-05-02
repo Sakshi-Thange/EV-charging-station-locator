@@ -1,0 +1,72 @@
+/* Center the auth container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styling for the authentication box */
+.auth-box {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+  width: 300px;
+  margin-left: -900px;
+  margin-top: -200px;
+}
+
+
+/* Heading inside the auth box */
+.auth-box h1 {
+  margin-bottom: 20px;
+}
+
+/* Styling for input fields */
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid aqua; /* Always visible aqua border */
+  border-radius: 5px;
+  background: transparent; /* Transparent background */
+  color: white; /* White text */
+  outline: none; /* Remove extra outline */
+}
+
+/* Placeholder text styling */
+.auth-input::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Light white placeholder */
+}
+
+/* Styling when input is focused */
+.auth-input:focus {
+  border-color: #00ffff; /* Brighter aqua border on focus */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8); /* Glow effect */
+}
+
+/* Sign-in button */
+.auth-button {
+  width: 108%;
+  padding: 10px;
+  background: #00ff99;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Toggle text for sign-in/sign-up */
+.toggle-text {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #00ff99;
+}
